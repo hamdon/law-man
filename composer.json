@@ -3,7 +3,6 @@
     "description": "collect laravel project exception to server side",
     "type": "library",
     "license": "MIT",
-    "minimum-stability": "dev",
     "authors": [
         {
             "name": "hamdon",
