@@ -76,7 +76,7 @@ class LawMan
         $source['method'] =  request()->method();
         $params = request()->all();
         $source['params'] =  empty($params)?'':json_encode($params,JSON_UNESCAPED_UNICODE);
-        $this->submitData($params);
+        $this->submitData($source);
     }
 
     public function submitData($data)
