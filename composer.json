@@ -1,0 +1,19 @@
+{
+    "name": "hamdon/law-man",
+    "description": "collect laravel project exception to server side",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "hamdon",
+            "email": "cao4141@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Hamdon\\LawMan\\": "src/"
+        }
+    },
+    "require": {}
+}
