@@ -5,6 +5,6 @@ class LawMan extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return 'lawMan';
+        return 'lawman';
     }
 }
