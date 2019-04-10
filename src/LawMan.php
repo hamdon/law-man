@@ -2,6 +2,8 @@
 namespace Hamdon\LawMan;
 use Illuminate\Support\Facades\Facade;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
+use Illuminate\Session\SessionManager;
+use Illuminate\Config\Repository;
 
 class LawMan 
 {
