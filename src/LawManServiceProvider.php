@@ -11,7 +11,7 @@ class LawManServiceProvider extends ServiceProvider
      *
      * @var bool
      */
-    protected $defer = true; // 延迟加载服务
+   // protected $defer = true; // 延迟加载服务
     /**
      * Bootstrap the application services.
      *
