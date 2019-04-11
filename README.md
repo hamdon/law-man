@@ -21,7 +21,7 @@ php artisan vendor:publish --provider="Hamdon\LawMan\LawManServiceProvider"
 
 # 3、修改config/lawman.php里面的内容
 
-# 4、修改app/Exceptions/handler.php里面的内容，使用report方法或者render增加收集操作
+# 4、修改app/Exceptions/handler.php里面的内容，在report方法或者render方法增加收集操作
 
 ```
 \lawMan::setBackEndSubmit()->submitException($exception);
