@@ -56,6 +56,12 @@ class LawMan
         return $this;
     }
 
+    public function setStatisticsSummarySubmit()
+    {
+        $this->submitUrl = '/ocean/statistics_summary';
+        return $this;
+    }
+
     public function submitException(\Exception $exception)
     {
         if($exception instanceof NotFoundHttpException){
