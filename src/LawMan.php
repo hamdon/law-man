@@ -79,7 +79,8 @@ class LawMan
         $source['trace'] = $exception->getTraceAsString();
         $source['ip'] = request()->getClientIp();
         $source['location_href'] =  request()->url();
-        $source['method'] =  request()->method();
+        $source['headers'] =  json_encode(request()->header(),JSON_UNESCAPED_UNICODE);
+		$source['method'] =  request()->method();
         $params = request()->all();
         $source['params'] =  empty($params)?'':json_encode($params,JSON_UNESCAPED_UNICODE);
         $this->submitData($source);
