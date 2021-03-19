@@ -3,8 +3,9 @@
 namespace Hamdon\LawMan;
 
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Contracts\Support\DeferrableProvider;
 
-class LawManServiceProvider extends ServiceProvider
+class LawManServiceProvider extends ServiceProvider implements DeferrableProvider
 {
 	/**
      * 服务提供者加是否延迟加载.
